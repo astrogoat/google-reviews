@@ -2,9 +2,9 @@
 
 namespace Astrogoat\GoogleReviews\Tests;
 
+use Astrogoat\GoogleReviews\GoogleReviewsServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Astrogoat\GoogleReviews\GoogleReviewsServiceProvider;
 
 class TestCase extends Orchestra
 {

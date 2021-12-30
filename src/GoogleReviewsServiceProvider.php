@@ -2,11 +2,11 @@
 
 namespace Astrogoat\GoogleReviews;
 
+use Astrogoat\GoogleReviews\Settings\GoogleReviewsSettings;
 use Helix\Lego\Apps\App;
 use Helix\Lego\LegoManager;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Astrogoat\GoogleReviews\Settings\GoogleReviewsSettings;
 
 class GoogleReviewsServiceProvider extends PackageServiceProvider
 {
