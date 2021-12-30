@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Astrogoat\GoogleReviews\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class GoogleReviewsCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'google-reviews';
 
     public $description = 'My command';
 

@@ -1,5 +1,5 @@
 <?php
 
-use VendorName\Skeleton\Tests\TestCase;
+use Astrogoat\GoogleReviews\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

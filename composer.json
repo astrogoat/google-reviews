@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "astrogoat/google-reviews",
+    "description": "A GoogleReviews app for Strata",
     "keywords": [
-        ":vendor_name",
+        "astrogoat",
         "laravel",
-        ":package_slug"
+        "google-reviews"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/astrogoat/google-reviews",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Megan",
+            "email": "megan.miller@smoldev.dev",
             "role": "Developer"
         }
     ],
@@ -31,13 +31,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Astrogoat\\GoogleReviews\\": "src",
+            "Astrogoat\\GoogleReviews\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Astrogoat\\GoogleReviews\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -50,10 +50,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Astrogoat\\GoogleReviews\\GoogleReviewsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "GoogleReviews": "Astrogoat\\GoogleReviews\\GoogleReviewsFacade"
             }
         }
     },
