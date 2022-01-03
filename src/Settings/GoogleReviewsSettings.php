@@ -6,14 +6,14 @@ use Helix\Lego\Settings\AppSettings;
 
 class GoogleReviewsSettings extends AppSettings
 {
-    public int $merchantId;
+    public int $merchant_id;
 
     protected array $rules = [
-        'merchantId' => ['required'],
+        'merchant_id' => ['required'],
     ];
 
     public function description(): string
     {
-        return 'Interact with GoogleReviews.';
+        return 'Interact with Google Reviews.';
     }
 }

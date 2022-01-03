@@ -9,7 +9,7 @@
 
         window.gapi.load('ratingbadge', function() {
 
-            window.gapi.ratingbadge.render(ratingBadgeContainer, {"merchant_id": settings('Astrogaot\\GoogleReviews\\Settings\\GoogleReviewsSettings', 'merchantId'),"position": "BOTTOM_RIGHT"});
+            window.gapi.ratingbadge.render(ratingBadgeContainer, {"merchant_id": {{settings('Astrogoat\\GoogleReviews\\Settings\\GoogleReviewsSettings', 'merchant_id')}},"position": "BOTTOM_RIGHT"});
 
         });
 

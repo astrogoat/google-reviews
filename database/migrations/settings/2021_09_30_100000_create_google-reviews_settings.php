@@ -6,15 +6,13 @@ class CreateGoogleReviewsSettings extends SettingsMigration
 {
     public function up(): void
     {
-        $this->migrator->add('google-reviews.enabled', false);
-        // $this->migrator->add('google-reviews.url', '');
-        // $this->migrator->addEncrypted('google-reviews.access_token', '');
+        $this->migrator->add('googlereviews.enabled', false);
+        $this->migrator->add('googlereviews.merchant_id', 7880076);
     }
 
     public function down()
     {
-        $this->migrator->delete('google-reviews.enabled');
-        // $this->migrator->delete('google-reviews.url');
-        // $this->migrator->delete('google-reviews.access_token');
+        $this->migrator->delete('googlereviews.enabled');
+        $this->migrator->delete('googlereviews.merchant_id');
     }
 }
