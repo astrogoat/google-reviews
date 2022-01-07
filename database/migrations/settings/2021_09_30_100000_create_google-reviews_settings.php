@@ -7,7 +7,7 @@ class CreateGoogleReviewsSettings extends SettingsMigration
     public function up(): void
     {
         $this->migrator->add('googlereviews.enabled', false);
-        $this->migrator->add('googlereviews.merchant_id', 7880076);
+        $this->migrator->add('googlereviews.merchant_id', '');
     }
 
     public function down()
