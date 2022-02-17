@@ -42,9 +42,8 @@ Please review [our security policy](../../security/policy) on how to report secu
 ## Credits
 
 - [Megan](https://github.com/smolDev-ai)
+- [Kristoffer Tonning](https://github.com/tonning)
 - [All Contributors](../../contributors)
-
-This google-reviews package is forked from the awesome [Spatie google-reviews package](https://github.com/spatie/package-google-reviews-laravel#support-us). Please go support them if you can.
 
 ## License
 
