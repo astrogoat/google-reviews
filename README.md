@@ -1,20 +1,9 @@
-# A GoogleReviews app for Strata
+# A Google Reviews app for Strata
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/astrogoat/google-reviews.svg?style=flat-square)](https://packagist.org/packages/astrogoat/google-reviews)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/astrogoat/google-reviews/run-tests?label=tests)](https://github.com/astrogoat/google-reviews/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/astrogoat/google-reviews/Check%20&%20fix%20styling?label=code%20style)](https://github.com/astrogoat/google-reviews/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/astrogoat/google-reviews.svg?style=flat-square)](https://packagist.org/packages/astrogoat/google-reviews)
-
----
-This repo can be used to scaffold a Strata CMS App package. Follow these steps to get started:
-
-1. Press the "Use template" button at the top of this repo to create a new repo with the contents of this google-reviews
-2. Run "php ./configure.php" to run a script that will replace all placeholders throughout all the files
-3. Remove this block of text.
-4. Have fun creating your package.
----
-
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
 ## Installation
 
@@ -26,9 +15,10 @@ composer require astrogoat/google-reviews
 
 ## Usage
 
+Include it in you Blade file.
+
 ```php
-$google-reviews = new Astrogoat\GoogleReviews();
-echo $google-reviews->echoPhrase('Hello, Astrogoat!');
+@include('google-reviews::script')
 ```
 
 ## Testing
@@ -55,9 +45,6 @@ Please review [our security policy](../../security/policy) on how to report secu
 - [All Contributors](../../contributors)
 
 This google-reviews package is forked from the awesome [Spatie google-reviews package](https://github.com/spatie/package-google-reviews-laravel#support-us). Please go support them if you can.
-
-
-
 
 ## License
 
