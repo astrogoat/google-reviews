@@ -14,6 +14,6 @@ class GoogleReviewsSettings extends AppSettings
 
     public function description(): string
     {
-        return 'Interact with Google Reviews.';
+        return 'Google reviews provide useful information and help your business stand out. Reviews show up next to your Business Profile in Maps and Search.';
     }
 }
