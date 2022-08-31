@@ -1,4 +1,5 @@
 @if(Astrogoat\GoogleReviews\Settings\GoogleReviewsSettings::isEnabled())
+    <!-- [Google Reviews] Start -->
     <script src="https://apis.google.com/js/platform.js?onload=renderBadge" async defer></script>
     <script>
         window.renderBadge = function() {
@@ -9,4 +10,5 @@
             });
         }
     </script>
+    <!-- [Google Reviews] End -->
 @endif

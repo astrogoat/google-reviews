@@ -17,7 +17,9 @@ class GoogleReviewsServiceProvider extends PackageServiceProvider
             ->settings(GoogleReviewsSettings::class)
             ->migrations([
                 __DIR__ . '/../database/migrations/settings',
-            ]);
+            ])->includeFrontendViews(function (IncludeFrontendViews $views) {
+                return $views->addToEnd(['google-reviews::script']);
+            });
     }
 
     public function registeringPackage()
@@ -29,6 +31,6 @@ class GoogleReviewsServiceProvider extends PackageServiceProvider
 
     public function configurePackage(Package $package): void
     {
-        $package->name('google-reviews')->hasViews();
+        $package->name('google-reviews')->hasViews()->hasConfigFile();
     }
 }
